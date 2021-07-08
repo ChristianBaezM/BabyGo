@@ -1,3 +1,14 @@
+.Welcome {
+  font-family: Zen+Tokyo+Zoo, serif;
+  text-align: center;
+}
+
+.ShoppingCart {
+  position: relative;
+  bottom: 60px;
+  left: 1340px;
+}
+
 .App {
   text-align: center;
 }
