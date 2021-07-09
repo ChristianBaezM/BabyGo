@@ -1,4 +1,5 @@
 import { Navbar } from 'react-bootstrap';
+import CartWidget from './CartWidget';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function NavBar(){
@@ -14,6 +15,7 @@ export default function NavBar(){
             />{' '}
             <span style={{color: "salmon", fontWeight: "bolder", fontFamily: "monospace", fontSize: 25, marginLeft: 20}}>Baby Go!</span>
             </Navbar.Brand>
+            <CartWidget />
         </Navbar>
     );
 }

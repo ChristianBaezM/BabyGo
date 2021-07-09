@@ -1,9 +1,9 @@
+
 import { Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function CartWidget(){
     return (  
-        <Button style={{backgroundColor: "transparent", border: "transparent"}}>
+        <Button style={{backgroundColor: "transparent", borderColor: "transparent", marginLeft: 1130}}>
             <img
                 alt="BUY"
                 src="/assets/buy.png"
